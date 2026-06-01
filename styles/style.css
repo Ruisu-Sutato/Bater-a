@@ -1,0 +1,42 @@
+body{background: #000000ff;
+  text-align: center;
+}
+
+h1{
+  color: #043fe3ff;
+  font-size: 70px;
+}
+
+h2{
+  color: #043fe3ff;
+}
+
+.afuera{
+  border: solid 3px #1ae83fff;
+  height: 20px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.adentro{
+  background: #043fe3ff;
+  height: 100%;
+  width: 100%;
+}
+
+@keyframes parpadeo{
+  0%{
+    opacity: 0;
+  }
+   50%{
+    opacity: 1;
+  }
+  100%{
+    opacity: 0;
+  }
+}
+
+.animacion {
+  animation: parpadeo 1s infinite;
+}
+
